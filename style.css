@@ -11,31 +11,41 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
     text-shadow: 0 0 15px #00ff66;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 28px;
 }
 
 #card {
-    background: #111;
-    border: 3px solid #00ff66;
-    border-radius: 20px;
-    padding: 30px;
+    width: 300px;
+    background: linear-gradient(160deg, #1aff80, #064d25);
+    border-radius: 25px;
+    padding: 25px;
     text-align: center;
-    box-shadow: 0 0 30px #00ff66;
-}
-
-#countdown {
-    font-size: 40px;
-    font-weight: bold;
-    margin: 20px;
+    color: black;
+    box-shadow: 0 0 35px #00ff66;
+    border: 4px solid white;
 }
 
 h3 {
-    font-size: 25px;
-    color: #00ff66;
+    font-size: 28px;
+    margin: 5px;
+}
+
+#countdown {
+    background: rgba(0,0,0,0.2);
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#card p {
+    font-size: 22px;
+    font-weight: bold;
 }
